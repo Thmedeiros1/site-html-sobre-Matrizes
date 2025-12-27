@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>o que são Matrizes</title>
+
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1> O que são Matrizes? </h1>
+
+    <p>
+        Matrizes são estruturas matemáticas que organizam dados em linhas e colunas, formando uma tabela.
+        São muito utilizadas em diversas áreas do conhecimento, como a matemática, a estatística, a economia
+        e a engenharia. Normalmente são representadas por Ai*j no qual “A” seria o nome da matriz em questão,
+        “i” representa o número de linhas e “j” de colunas, a expressão i*j é denominada como “ordem da matriz”.
+        Nas matrizes, seus dados são comumente são inseridos entre colchetes ou parênteses.<br />
+        Exemplo:
+    </p>
+
+    <img src="aexemplo.png">
+
+    <p>
+        Cada um dos dados ou valores de uma matriz é chamado de termo ou elemento da matriz e cada um deles
+        pode ser nomeado como “elemento Ai*j” da matriz em questão, sendo “i” a linha e “j” de coluna onde
+        está esse elemento.<br />
+        Exemplo:
+    </p>
+
+    <img src="elementodematriz.png">
+
+    <hr>
+
+    <h2>Tipos de Matrizes </h2>
+
+    <p>
+        Linha: matriz que possui apenas uma linha.<br />
+        Exemplo:
+    </p>
+    <img src="matrizlinha.png">
+
+    <hr>
+
+    <p>
+        Coluna: matriz que possui apenas uma coluna.<br />
+        Exemplo:
+    </p>
+    <img src="matrizcoluna.png">
+
+    <hr>
+
+    <p>
+        Quadrada: matriz que possui o mesmo número de linhas e colunas.<br />
+        Exemplo:
+    </p>
+    <img src="matrizquadrada.png">
+
+    <hr>
+
+    <p>
+        Nula: matriz em que todos os números são iguais a zero.<br />
+        Exemplo:
+    </p>
+    <img src="matriznula.png">
+
+    <hr>
+
+    <p>
+        Diagonal: Uma matriz quadrada, no qual todos os elementos da diagonal
+        principal são diferentes de zero e os demais elementos são iguais a zero.<br />
+        Exemplo:
+    </p>
+    <img src="matrizdiagonal.png">
+
+    <hr>
+
+    <p>
+        Identidade: Um caso individual em que matriz quadrada, no qual todos os
+        elementos da diagonal principal são iguais a 1 e os demais elementos são iguais a zero.<br />
+        Exemplo:
+    </p>
+    <img src="matrizidentidade.png">
+
+    <hr>
+
+    <h2>Como calcular Matrizes</h2>
+
+    <p>
+      SOMA: Duas matrizes podem ser somadas contanto que possuam o mesmo tamanho
+      de linhas e colunas, resultando em uma terceira matriz, neste cálculo se somam
+      os elementos de mesma posição.<br />
+        Exemplo:
+    </p>
+
+    <img src="soma.png">
+
+    <p>
+        SUBTRAÇÃO: Duas matrizes podem ser subtraídas contanto que possuam o mesmo
+        tamanho de linhas e colunas, resultando em uma terceira matriz, neste cálculo
+        se subtraem os elementos de mesma posição. LEMBRE-SE! A ORDEM DOS FATORES
+        ALTERA O RESULTADO!<br />
+        Exemplo:
+    </p>
+
+    <img src="subtracao.png">
+
+    <p>
+        MULTIPLICAÇÃO POR ESCALAR: Neste cálculo se multiplicam os
+        elementos de mesma posição pelo número desejado, resultando em uma segunda
+        matriz.<br />
+        Exemplo:
+    </p>
+
+    <img src="multiplicacao.png" />
+
+    <p>
+        PRODUTO DE MATRIZ: Duas matrizes podem ser multiplicadas apenas se o número de colunas da 
+        primeira matriz for igual ao número de linhas da segunda matriz. Quando isso acontece, o 
+        resultado será uma nova matriz. O número de linhas dessa nova matriz será o mesmo da primeira 
+        matriz, e o número de colunas será o mesmo da segunda matriz. Cada elemento da nova matriz 
+        resultante será calculado da seguinte maneira:<br />
+
+        Para calcular um elemento na posição "i*j" da matriz resultante, você precisa multiplicar
+        cada elemento da linha "i" da primeira matriz pelos elementos correspondentes da coluna "j"
+        da segunda matriz, e então somar esses produtos.<br />
+
+        Em outras palavras:<br />
+
+        Cada linha da primeira matriz é multiplicada por cada coluna da segunda matriz.<br />
+        A soma dos produtos dessas multiplicações dá o valor do elemento na posição correspondente
+        da matriz resultante.<br />
+        Exemplo:
+    </p>
+
+    <img src="matrizmulti.png">
+
+    <p>
+        DETERMINANTE: A determinante é um valor numérico presente numa matriz quadrada, sendo
+        calculado através dos elementos da matriz sendo representado por “det” ou pela matriz
+        entre barras “|...|” ao invés de colchetes ou parênteses, ênfase que matrizes diferentes
+        podem ou não ter o mesmo determinante.
+    </p>
+
+    <p>
+        Para calcular matrizes que o número de linhas e colunas é igual a um, o determinante será
+        o valor do único elemento da matriz.<br />
+        Exemplo:
+    </p>
+
+    <img src="detum.png">
+
+    <p>
+        Já matrizes que o número de linhas e colunas é igual a dois, o determinante será o resultado,
+        da multiplicação dos dois elementos da diagonal principal subtraídos pela multiplicação dos
+        elementos da diagonal secundaria.<br />
+        Exemplo:
+    </p>
+
+    <img src="detdois.png">
+
+    <p>
+        Porém, matrizes de valores em que o número de linhas e colunas são três ou acima, se usa-se
+        “Regra de Sarrus” no qual consiste em repetir as colunas da matriz, até a penúltima da direita
+        para a esquerda, no lado direito da matriz. Com isso feito, fazemos a soma das multiplicações dos elementos
+        das diagonais de cima para baixo, subtraídos pela multiplicação e somatoria, dos elementos da diagonal 
+        secundaria, de baixo para cima.<br />
+        Exemplo:
+    </p>
+
+    <img src="detpronta.png">
+
+    <p>Dado as explicações clique no link abaixo para acessar alguns exercícios sobre Matrizes</p>
+
+    <a href="atividade.html">
+        EXERCÍCIOS.
+    </a>
+
+</body>
+</html>

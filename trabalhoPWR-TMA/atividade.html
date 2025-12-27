@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>exercicios de Matrizes</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <h1>Resolução de exercicios</h1>
+
+    <p>
+        Nessa página apresentaremos alguns exercícios de cálculo de matrizes e suas resoluções.
+        Em caso de dúvidas adicionais, recomenda-se acessar a página sobre o que são as matrizes
+        através do botão abaixo.
+    </p>
+    <a href="Matrizes.html">
+      O QUE SÃO MATRIZES?
+    </a>
+
+    <hr>
+
+    <h2>Dado as matrizes: </h2>
+
+    <img src="matriza.png">
+    <img src="matrizb.png">
+    <img src="matrizc.png">
+
+    <hr>
+
+    <h3>Calcule as seguintes equações:</h3>
+
+    <p>Questão 1) A+B </p>
+
+    <p>Questão 2) C-B </p>
+
+    <p>Questão 3)3 * A </p>
+
+    <p>Questão 4) -3A + 2B </p>
+
+    <p>Questão 5) (3A) * B </p>
+
+    <p>Questão 6) calcule a determinante de B </p>
+
+    <hr>
+
+    <!-- resoluções-->
+    <!-- 1 questão-->
+    <details>
+        <summary>Resolução Questão 1</summary>
+        <p>
+            Para encontrarmos o resultado de A+B devemos somar os elementos de mesma posição:
+        </p>
+        <img src="matrizamaisb.png">
+
+        <p>
+            Após as somas feitas teremos como resultado final, uma terceira matriz a qual chamaremos
+            de matriz D:
+        </p>
+        <img src="matrizd.png">
+
+    </details>
+    <!-- 2 questão-->
+
+    <details>
+        <summary>Resolução Questão 2</summary>
+        <p>
+            Para encontrarmos o resultado de C-B devemos subtrair os elementos de mesma posição:
+        </p>
+        <img src="matrizcmenosb.png">
+
+        <p>
+            Após as subtrações feitas teremos como resultado final, uma terceira matriz a qual chamaremos
+            de matriz E:
+        </p>
+        <img src="matrize.png">
+    </details>
+    <!-- 3 questão-->
+
+    <details>
+        <summary>Resolução Questão 3</summary>
+        <p>
+            Para encontrarmos o resultado de 3*A devemos multiplicar todos os elementos da matriz por 3:
+        </p>
+        <img src="matriz3vezesa.png">
+
+        <p>
+            O qual após todas as multiplicações feitas teremos como resultado final, uma terceira matriz
+            a qual chamaremos de matriz 3A:
+        </p>
+        <img src="matriztresa.png">
+    </details>
+    <!-- 4 questão-->
+
+    <details>
+        <summary>Resolução Questão 4</summary>
+        <p>
+            Para calcularmos -3A+2B, inicialmente devemos descobrir os valores de -3A e 2B, sendo
+            assim multiplicamos os elementos da Matriz A por -3 e da matriz B por 2:
+        </p>
+        <img src="matriz2vezesb.png">
+        <img src="matrizmenos3vezesa.png">
+
+        <p>
+            Feito os cálculos teremos:
+        </p>
+        <img src="matriz2b.png">
+        <img src="matrizmenos3a.png">
+
+        <p>
+            Agora sabendo os valores das matrizes, devemos somar seus elementos de mesma posição:
+        </p>
+        <img src="matrizmenos3mais2b.png">
+
+        <p>
+            E como resultado final teremos uma terceira matriz o qual chamaremos de matriz F:
+        </p>
+        <img src="matrizf.png">
+    </details>
+    <!-- 5 questão-->
+
+    <details>
+        <summary>Resolução Questão 5</summary>
+        <p>
+            Para calcularmos (3A)*B devemos inicialmente descobrir o valor de 3A, sendo assim
+            multiplicamos os elementos de A por 3:
+        </p>
+        <img src="matriz3vezesa.png">
+
+        <p>
+            No qual teremos como resultado:
+        </p>
+        <img src="matriztresa.png">
+
+        <p>
+            Agora que sabemos os valores das matrizes que serão multiplicadas, devemos separar
+            a primeira em linhas e a segunda em colunas:
+        </p>
+        <img src="matrizaeb.png">
+
+        <p>
+            O valor de cada elemento da matriz resultante será a soma das multiplicações entre os 
+            elementos de uma linha da primeira matriz e os elementos correspondentes de uma coluna 
+            da segunda matriz. Em outras palavras, para calcular um elemento da matriz resultante, 
+            você deve multiplicar o primeiro elemento da linha da primeira matriz pelo primeiro 
+            elemento da coluna da segunda matriz, depois multiplicar o segundo elemento da linha da 
+            primeira matriz pelo segundo elemento da coluna da segunda matriz, e assim por diante, 
+            até o final da linha e da coluna. A soma dessas multiplicações vai gerar o valor do 
+            elemento na matriz resultante.
+        </p>
+        <img src="matriz3avezesmenosb.png">
+
+        <p>
+            Feito as multiplicações teremos:
+        </p>
+        <img src="matriz3avezesmenosbsomas.png">
+
+        <p>
+            Finalizando as somatorias teremos nossa terceira matriz a qual chamaremos de
+            Matriz G:
+        </p>
+        <img src="matrizg.png">
+    </details>
+
+    <!-- 6 questão-->
+    <details>
+        <summary>Resolução Questão 6</summary>
+        <p>
+            Para descobrirmos a Determinante de B, repetimos as colunas da matriz, até a penúltima da direita
+            para a esquerda, no lado direito da matriz. Com isso feito, calcula-se a multiplicação dos elementos
+            das diagonais de cima para baixo e ocorre a somatória dos resultados, subtraídos pela multiplicação
+            e somatoria dos elementos da diagonal secundaria, de baixo para cima.
+        </p>
+        <img src="detB.png">
+    </details>
+    <!-- Fim das resoluções-->
+
+</body>
+</html>
